@@ -12,6 +12,12 @@
 		4BE8B9561D7E02C900DEDDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE8B9551D7E02C900DEDDB0 /* Assets.xcassets */; };
 		4BE8B9591D7E02C900DEDDB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE8B9571D7E02C900DEDDB0 /* LaunchScreen.storyboard */; };
 		4BE8B9611D7E02EE00DEDDB0 /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8B9601D7E02EE00DEDDB0 /* Representative.swift */; };
+		4BE8B9631D7E054C00DEDDB0 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8B9621D7E054C00DEDDB0 /* NetworkController.swift */; };
+		4BE8B9651D7E058300DEDDB0 /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8B9641D7E058300DEDDB0 /* RepresentativeController.swift */; };
+		4BE8B9671D7E13CC00DEDDB0 /* StateListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8B9661D7E13CC00DEDDB0 /* StateListTableViewController.swift */; };
+		4BE8B9691D7E13DD00DEDDB0 /* StateDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8B9681D7E13DD00DEDDB0 /* StateDetailTableViewController.swift */; };
+		4BE8B96B1D7E153A00DEDDB0 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8B96A1D7E153A00DEDDB0 /* StateController.swift */; };
+		4BE8B96D1D7E208200DEDDB0 /* RepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8B96C1D7E208200DEDDB0 /* RepTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		4BE8B9581D7E02C900DEDDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BE8B95A1D7E02C900DEDDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BE8B9601D7E02EE00DEDDB0 /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		4BE8B9621D7E054C00DEDDB0 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		4BE8B9641D7E058300DEDDB0 /* RepresentativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
+		4BE8B9661D7E13CC00DEDDB0 /* StateListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateListTableViewController.swift; sourceTree = "<group>"; };
+		4BE8B9681D7E13DD00DEDDB0 /* StateDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateDetailTableViewController.swift; sourceTree = "<group>"; };
+		4BE8B96A1D7E153A00DEDDB0 /* StateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		4BE8B96C1D7E208200DEDDB0 /* RepTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +68,13 @@
 			children = (
 				4BE8B94E1D7E02C900DEDDB0 /* AppDelegate.swift */,
 				4BE8B9521D7E02C900DEDDB0 /* Main.storyboard */,
+				4BE8B96C1D7E208200DEDDB0 /* RepTableViewCell.swift */,
+				4BE8B96A1D7E153A00DEDDB0 /* StateController.swift */,
+				4BE8B9661D7E13CC00DEDDB0 /* StateListTableViewController.swift */,
+				4BE8B9681D7E13DD00DEDDB0 /* StateDetailTableViewController.swift */,
 				4BE8B9601D7E02EE00DEDDB0 /* Representative.swift */,
+				4BE8B9621D7E054C00DEDDB0 /* NetworkController.swift */,
+				4BE8B9641D7E058300DEDDB0 /* RepresentativeController.swift */,
 				4BE8B9551D7E02C900DEDDB0 /* Assets.xcassets */,
 				4BE8B9571D7E02C900DEDDB0 /* LaunchScreen.storyboard */,
 				4BE8B95A1D7E02C900DEDDB0 /* Info.plist */,
@@ -96,6 +114,7 @@
 				TargetAttributes = {
 					4BE8B94A1D7E02C900DEDDB0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -136,7 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BE8B9611D7E02EE00DEDDB0 /* Representative.swift in Sources */,
+				4BE8B96B1D7E153A00DEDDB0 /* StateController.swift in Sources */,
 				4BE8B94F1D7E02C900DEDDB0 /* AppDelegate.swift in Sources */,
+				4BE8B96D1D7E208200DEDDB0 /* RepTableViewCell.swift in Sources */,
+				4BE8B9691D7E13DD00DEDDB0 /* StateDetailTableViewController.swift in Sources */,
+				4BE8B9651D7E058300DEDDB0 /* RepresentativeController.swift in Sources */,
+				4BE8B9671D7E13CC00DEDDB0 /* StateListTableViewController.swift in Sources */,
+				4BE8B9631D7E054C00DEDDB0 /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +278,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Representative2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +290,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Representative2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +313,7 @@
 				4BE8B95F1D7E02C900DEDDB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

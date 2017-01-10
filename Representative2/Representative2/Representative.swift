@@ -11,13 +11,13 @@ import Foundation
 class Representative {
     
     
-    private let kName = "name"
-    private let kParty = "party"
-    private let kState = "state"
-    private let kDistrict = "district"
-    private let kPhone = "phone"
-    private let kOffice = "office"
-    private let kLink = "link"
+    fileprivate let kName = "name"
+    fileprivate let kParty = "party"
+    fileprivate let kState = "state"
+    fileprivate let kDistrict = "district"
+    fileprivate let kPhone = "phone"
+    fileprivate let kOffice = "office"
+    fileprivate let kLink = "link"
     
     
     let name: String
@@ -31,12 +31,12 @@ class Representative {
     //note: Dictionary we are referring to here is the {} -> []-> {}. all keys and values are in the same level so no need to parse this in the model. we can do so in the model [[String: AnyObject]] and use flatmap to get them out 
     init?(dictionary: [String: AnyObject]) {
         guard let name = dictionary[kName] as? String,
-                  party = dictionary[kParty] as? String,
-                  state = dictionary[kState] as? String,
-                  district = dictionary[kDistrict] as? String,
-                  phone = dictionary[kPhone] as? String,
-                  office = dictionary[kOffice] as? String,
-                  link = dictionary[kLink] as? String
+                  let party = dictionary[kParty] as? String,
+                  let state = dictionary[kState] as? String,
+                  let district = dictionary[kDistrict] as? String,
+                  let phone = dictionary[kPhone] as? String,
+                  let office = dictionary[kOffice] as? String,
+                  let link = dictionary[kLink] as? String
         else { return nil }
         
         self.name = name
